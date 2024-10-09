@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Suplementos para Gym</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="carrito">
+            <img src="https://e7.pngegg.com/pngimages/833/426/png-clipart-shopping-cart-shopping-cart.png" alt="Carrito" id="icono-carrito" onclick="mostrarCarrito()">
+            <span id="contador-carrito">0</span>
+        </div>
+        <h1>Tienda de Suplementos para Gym</h1>
+        <p>Aviso: Este sitio es un proyecto escolar. No se realizan ventas reales.</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#proteinas">Proteínas</a></li>
+            <li><a href="#creatinas">Creatinas</a></li>
+            <li><a href="#preentrenos">Pre-Entrenos</a></li>
+            <li><a href="#creditos">Créditos</a></li>
+        </ul>
+    </nav>
+
+    <section id="proteinas">
+        <h2>Proteínas</h2>
+        <div class="producto" data-precio="29.99">
+            <img src="https://i.blogs.es/06fd31/450_1000-1-/1366_2000.jpg" alt="Optimum Nutrition - Whey Protein">
+            <h3>Optimum Nutrition - Whey Protein</h3>
+            <button>Añadir al carrito</button>
+        </div>
+        <div class="producto" data-precio="34.99">
+            <img src="https://yaoca.com/cdn/shop/products/arte1.jpg?v=1704416955" alt="Dymatize ISO100 - Hydrolyzed Whey">
+            <h3>Dymatize ISO100 - Hydrolyzed Whey</h3>
+            <button>Añadir al carrito</button>
+        </div>
+        <div class="producto" data-precio="39.99">
+            <img src="https://nutricionbalanceada.mx/cdn/shop/files/arte1_4cede23d-ab84-4893-ac86-79add4edc2ef.jpg?v=1706632647&width=1920" alt="BSN Syntha-6">
+            <h3>BSN Syntha-6</h3>
+            <button>Añadir al carrito</button>
+        </div>
+        <div class="producto" data-precio="27.99">
+            <img src="https://gnc.com.mx/media/catalog/product/1/4/141604663-1.png?optimize=medium&bg-color=255,255,255&fit=bounds&height=&width=&format=jpeg" alt="MusclePharm Casein">
+            <h3>MusclePharm Casein</h3>
+            <button>Añadir al carrito</button>
+        </div>
+        <div class="producto" data-precio="32.99">
+            <img src="https://gnc.com.mx/media/catalog/product/1/4/141604742_a.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=&width=" alt="Cellucor C4 Whey">
+            <h3>Cellucor C4 Whey</h3>
+            <button>Añadir al carrito</button>
+        </div>
+    </section>
+
+    <section id="creatinas">
+        <h2>Creatinas</h2>
+        <div class="producto" data-precio="24.99">
+            <img src="https://m.media-amazon.com/images/I/71R4ZRxBgJL._AC_UF1000,1000_QL80_.jpg" alt="Optimum Nutrition Creatine">
+            <h3>Optimum Nutrition Creatine</h3>
+            <button>Añadir al carrito</button>
+        </div>
+        <div class="producto" data-precio="22.99">
+            <img src="https://m.media-amazon.com/images/I/51ZIefWIpvL._AC_UF1000,1000_QL80_.jpg" alt="Dymatize Creatine Micronized">
+            <h3>Dymatize Creatine Micronized</h3>
+            <button>Añadir al carrito</button>
+        </div>
+        <div class="producto" data-precio="21.99">
+            <img src="https://x-gear.com.mx/assets/images/creatina.gif" alt="MusclePharm Creatine">
+            <h3>MusclePharm Creatine</h3>
+            <button>Añadir al carrito</button>
+        </div>
+        <div class="producto" data-precio="23.99">
+            <img src="https://d2srhjppof4f8s.cloudfront.net/9039-large_default/creatina-platinum-400g.jpg" alt="Cellucor Creatine">
+            <h3>Cellucor Creatine</h3>
+            <button>Añadir al carrito</button>
+        </div>
+        <div class="producto" data-precio="19.99">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgwQWqjRtAMTivXU3yJE3ZF_tGjzSA2uBlLg&s" alt="BCAA Creatine">
+            <h3>BCAA Creatine</h3>
+            <button>Añadir al carrito</button>
+        </div>
+    </section>
+
+    <section id="preentrenos">
+        <h2>Pre-Entrenos</h2>
+        <div class="producto" data-precio="29.99">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_701346-MLU72755274358_112023-O.webp" alt="BSN NO-Xplode">
+            <h3>BSN NO-Xplode</h3>
+            <button>Añadir al carrito</button>
+        </div>
+        <div class="producto" data-precio="29.99">
+            <img src="https://x-gear.com.mx/assets/images/whey-protein-concentrate.gif" alt="Cellucor C4 Original">
+            <h3>Cellucor C4 Original</h3>
+            <button>Añadir al carrito</button>
+        </div>
+        <div class="producto" data-precio="27.99">
+            <img src="https://th.bing.com/th/id/OIP.65_KgI6Kc3wfsX2Kuc4oGgHaHa?rs=1&pid=ImgDetMain" alt="Pre-Workout Energy">
+            <h3>Pre-Workout Energy</h3>
+            <button>Añadir al carrito</button>
+        </div>
+        <div class="producto" data-precio="30.99">
+            <img src="https://images.hollandandbarrettimages.co.uk/productimages/HB/724/047047_A.jpg" alt="Alpha Pre-Workout">
+            <h3>Alpha Pre-Workout</h3>
+            <button>Añadir al carrito</button>
+        </div>
+        <div class="producto" data-precio="28.99">
+            <img src="https://th.bing.com/th/id/OIP.s3ksUY8jqHyj07ctyb-kKgAAAA?rs=1&pid=ImgDetMain" alt="Nitro Pre-Workout">
+            <h3>Nitro Pre-Workout</h3>
+            <button>Añadir al carrito</button>
+        </div>
+    </section><br>
+
+    <div class="pago">
+        <button onclick="pagar()">Pagar</button>
+    </div><br><br><br><br>
+
+    <footer id="creditos">
+        <p>Desarrollado por Luque Mendoza Jorge.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <div id="chatbot" style="display:none; position:fixed; bottom:20px; right:20px; background-color:#fff; border-radius:10px; padding:15px; box-shadow:0 0 15px rgba(0,0,0,0.2); width:250px;">
+        <div style="font-weight:bold; margin-bottom:10px;">🤖 Chatbot</div>
+        <div id="chat-messages" style="max-height: 150px; overflow-y: auto; margin-bottom: 10px;"></div>
+        <p>¡Hola! ¿Sobre qué suplemento te gustaría saber más?</p>
+        <input type="text" id="suplementoInput" placeholder="Escribe aquí..." style="width:100%; padding:5px; border:1px solid #ccc; border-radius:5px;" />
+        <button id="enviarSuplemento" style="background-color:#28a745; color:white; border:none; padding:10px; border-radius:5px; cursor:pointer; width:100%; margin-top:5px;">Enviar</button>
+    </div>
+</body>
+</html>
